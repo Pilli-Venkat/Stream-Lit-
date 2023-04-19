@@ -16,4 +16,4 @@ num3 = st.number_input('Enter the third number')
 
 if st.button('Largest Number'):
     length = find_length(num1, num2, num3)
-    st.success('Largest Among three numbers is '+[num1,num2,num3]+" " + str(length))
+    st.success('Largest Among three numbers is ' + str(length))
